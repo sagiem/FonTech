@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FonTech.Api", "FonTech.Api\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FonTech.Domain", "FonTech.Domain\FonTech.Domain.csproj", "{371ADD72-1C93-46F1-9177-E4D9547A6B3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FonTech.DAL", "FonTech.DAL\FonTech.DAL.csproj", "{7E480D88-D4A5-46EF-8AAA-E0B646C580D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2A56337C-1092-4B56-A8DB-79971FE90391} = {0A216255-CD68-47E8-919D-C66B815840CC}
 		{371ADD72-1C93-46F1-9177-E4D9547A6B3A} = {40FF850F-AC95-41EB-96FA-3ACA032270C3}
+		{7E480D88-D4A5-46EF-8AAA-E0B646C580D0} = {838C112B-17EA-426E-9538-D8FB32E5497D}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2A56337C-1092-4B56-A8DB-79971FE90391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -28,5 +31,9 @@ Global
 		{371ADD72-1C93-46F1-9177-E4D9547A6B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{371ADD72-1C93-46F1-9177-E4D9547A6B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{371ADD72-1C93-46F1-9177-E4D9547A6B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E480D88-D4A5-46EF-8AAA-E0B646C580D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E480D88-D4A5-46EF-8AAA-E0B646C580D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E480D88-D4A5-46EF-8AAA-E0B646C580D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E480D88-D4A5-46EF-8AAA-E0B646C580D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
