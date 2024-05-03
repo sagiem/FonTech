@@ -21,6 +21,11 @@ public class DateInterceptor : SaveChangesInterceptor
             {
                 entry.Property(x => x.CreatedAt).CurrentValue = DateTime.UtcNow;
             }
+
+            if (entry.State == EntityState.Modified)
+            {
+                entry.Property(x => x.UpdatedAt).CurrentValue = DateTime.UtcNow;
+            }
             
         }
         return base.SavedChanges(eventData, result);
